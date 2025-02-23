@@ -1,0 +1,60 @@
+
+@keyframes stretching {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 1130px;
+    }
+  }
+
+@keyframes rotate{
+    0%{
+        transform: rotate(90deg);
+    }
+    100% {
+        tranform: rotate(360deg);
+    }
+}
+
+@keyframes gradient{
+    0%{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    50%{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,203,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    100%{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,197,1) 50%, rgba(252,176,69,1) 100%);
+    }
+}
+  
+  
+  .button {
+    display: inline-block;
+    background-color: blueviolet;
+    animation-name: stretching;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  .button2 {
+    display: inline-block;
+    background-color: red;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+body {
+   display:inline-block;
+   animation-name: gradient;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function:ease-in-out;
+}
+  
