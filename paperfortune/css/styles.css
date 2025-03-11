@@ -1,0 +1,49 @@
+
+body {
+    background-color: #77b3d3;
+}
+
+h1 {
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+    padding-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+}
+
+
+.fortune-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#fortune-image {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.options {
+    text-align:center;
+}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: "DynaPuff", system-ui;
+}
+
+.hidden {
+    display: none;
+}
+
+.number-buttons {
+    padding-left: 100px;
+}
+
+
