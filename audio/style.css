@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  #visualizer {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    height: 100px;
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  .bar {
+    flex: 1;
+    background: #4fc3f7;
+    height: 10%;
+    transition: height 0.1s linear;
+    border-radius: 4px;
+  }
+  
+  audio {
+    margin-top: 20px;
+  }
