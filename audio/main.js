@@ -1,7 +1,6 @@
 const audio = document.getElementById('audio');
 const visualizer = document.getElementById('visualizer');
 
-// Create 64 bars
 const numBars = 64;
 for (let i = 0; i < numBars; i++) {
   const bar = document.createElement('div');
@@ -10,7 +9,6 @@ for (let i = 0; i < numBars; i++) {
 }
 const bars = document.getElementsByClassName('bar');
 
-// Set up audio context
 const ctx = new (window.AudioContext || window.webkitAudioContext)();
 const analyser = ctx.createAnalyser();
 analyser.fftSize = 128;
