@@ -1,8 +1,16 @@
 body {
+    background-image: url("images/background.jpg");
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #eee;
+  }
+
+  html, body {
+    cursor: url('images/leaf.png') 16 16, auto;
   }
 
   h1 {
@@ -30,11 +38,27 @@ body {
   }
   
   .arrow-link {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    background: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background 0.3s;
+  }
+
+  .arrow-link2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 75%;
+    transform: translateX(-50%);
+    font-size: 20px;
     text-decoration: none;
     color: #fff;
     background: #4CAF50;
@@ -49,7 +73,8 @@ body {
 
   .image-container {
     position: relative;
-    display: inline-block;
+    width: fit-content;
+    margin: 40px auto;
   }
   
   .cabin-image {
@@ -64,7 +89,13 @@ body {
     cursor: pointer;
     background: rgba(255, 0, 0, 0); 
   }
-  
+
+  .click-box2 {
+    position: absolute;
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0); 
+  }
+
   .box-scrubjays {
     top: 25%; left: 15%; width: 10%; height: 10%;
   }
@@ -97,4 +128,14 @@ body {
     top: 54%; left: 75%; width: 10%; height: 10%;
   }
   
-  
+  .box-bananaslug1 {
+    top: 82%; left: 12%; width: 5%; height: 5%;
+  }
+
+  .box-bananaslug2 {
+    top: 75%; left: 48%; width: 5%; height: 5%;
+  }
+
+  .box-bananaslug3 {
+    top: 85%; left: 75%; width: 5%; height: 5%;
+  }

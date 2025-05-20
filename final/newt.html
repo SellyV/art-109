@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Walden West Welcome</title>
+  <link rel="stylesheet" href="newt.css">
+</head>
+<body>
+  <div class="container">
+    <img src="images/newt.png" width="700px" alt="newt" class="newt-image" >
+    <div class="button-wrapper">
+
+    <button class="open-modal-btn">Say Something Nice</button>
+
+  </div>
+  </div>
+
+    <div class="modal" id="nameModal">
+        <div class="modal-content">
+          <span class="close-btn" id="closeModal">&times;</span>
+          <h2>What would you like to say?</h2>
+          <input type="text" id="slugName" placeholder="Say something nice">
+          <button id="submitName">Submit</button>
+          <p id="nameResult"></p>
+        </div>
+      </div>
+
+<button id="openExitModal">Exit to Main Page</button>
+
+<div id="exitModal" class="modal">
+  <div class="modal-content">
+    <span class="close-exit">&times;</span>
+    <h2></h2>
+    <p>It's getting late, it's time to hit the showers and call it a day.</p>
+    <div style="margin-top: 20px;">
+      <a href="index.html"><button>Get some rest</button></a>
+      <button id="cancelExit">Wait, not yet</button>
+    </div>
+  </div>
+</div>
+
+
+    <!-- <a href="cabinpage.html" class="arrow-link">Pick Your Cabin → </a> -->
+  </div>
+
+  <script src="newt.js"></script>
+</body>
+</html>
